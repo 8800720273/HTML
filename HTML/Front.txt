@@ -1,0 +1,80 @@
+<!Doctype html>
+<head>
+<style>
+#myStore {
+    background-color: lightblue;
+    padding : 2px;
+    text-align: center;
+#s{
+width:50%;
+} 
+</style>
+</head>
+<body background="C:\Users\BAL KRISHNA\Desktop\Image\Go1.jpg">
+<h1 id="myStore" style=font-family:courier;color:>The CupCakes Man<h1>
+<div style="width: 100%;height: 50%">
+    <div style="float:left; width: 80%">
+    </div>
+    <div style="float:right;">
+    </div>
+</div>
+<form action="">
+  <fieldset style="border: 3px solid  violet;" >
+  <h1 style = color:rgb(121,47,102)><em>Sign Up Here<em></h1>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>Name:</h3>
+  <input type="text" name="firstname" placeholder="First Name"  Required autofocus>
+  <input type="text" name="lastname" placeholder="Last Name" Required><br>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>Email:</h3>
+  <input type="text" name="EmailId" placeholder="abc123@yahoo.com"maxlength=40>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>New Password:</h3>
+
+  <input id=01 type="password" name="password" placeholder="Choose special character">
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>Confirm Password:</h3>
+  <input id = 02 type="password" name="password">
+  <script>
+  var s = document.getElementById(01);
+  var s1 = document.getElementById(02);
+  function equal()
+  {
+	  if(s == s1)
+	  {
+	  }
+	  else
+	  {
+		  alert("Password is not Matching");
+	  }
+  </script>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>Phone Number:</h3><br>
+  <select>
+      <option value="+91">+91</option>
+      <option value="+91">+1</option>
+      <option value="+91">+32</option>
+      <option value="+91">+92</option>
+      <option value="+91">+44</option>
+      <option value="+91">+78</option>
+  </select>
+  -
+  <input type ="text" name="PhoneNumber" placeholder="0123456677" Required><br>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>D.O.B:</h3>
+  <input type="date" name="bday" placeholder="dd/mm/yyyy"Required><br>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>Gender:</h3>
+  <input type="radio" name="gender" value="male"><strong>Male<strong>
+  <input type="radio" name="gender" value="female" checked><strong>Female<strong><br>
+  <h3 style = font-family:Georgia;color:rgb(248,35,93)>May I Kown Your Choice: </h3>
+  <input type ="checkbox" name="Cookie" value="Cookie" >Cookie<br>
+  <input type ="checkbox" name="King Cake" value="King Cake">King Cake<br>
+  <input type ="checkbox" name="Cup Cake" value="Cup Cake" checked>Cup Cake<br>
+  <input type ="checkbox" name="Angle Food Cake" value="Angle Food Cake">Angle Food Cake<br>
+  <button type="button"  onClick='alert("We will Connect You Soon")'>Submit</button>
+  <input type ="reset" value="Reset">
+</fieldset>
+</form>
+<iframe width="420" height="345" src="C:\Users\BAL KRISHNA\Downloads\video\muffin.mp4">
+</iframe>
+
+<hr>
+<address>
+6/A, 2nd floor, Kabra Excelsior, 7th Main, Koramangala 1st block, Bengaluru, Karnataka 560034
+</address>
+</body>
+</html>
